@@ -40,10 +40,10 @@ Object.init, Function.init are mutable objects with immutable .pro
 
 (so).pro----(Object.init).pro----(null)
              .ctor  |  |
-		       |    |  |---------|
-		       |    |            |
-		       |  .init        .pro   
-		      (Object).pro----(Function.init)
+	       |    |  |---------|
+	       |    |            |
+	       |  .init        .pro   
+	     (Object).pro----(Function.init)
                                .ctor   |   |
                                  |     |   |
                                  |     |   |
